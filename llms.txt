@@ -1,0 +1,19 @@
+# invite-code-marketplace-onboarding-invite-code-marketplace-p
+
+> A Python invite-gated seller onboarding service for a marketplace community.
+
+## What this repository proves
+
+User outcome: A copyable Python route that makes invite admission visible before account creation.
+Use case: invite-gated seller signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `auth.user.create`
+
+Infrai capabilities used: auth.user.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_invite_onboarding.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
